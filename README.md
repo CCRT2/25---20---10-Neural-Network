@@ -1,6 +1,6 @@
 # 25-20-10 Neural Network
 
-A feedforward neural network that classifies digits represented as 5×5 binary grids using a 25-20-10 architecture.
+A feedforward neural network designed to classify digits represented as 5×5 binary grids using a 25-20-10 architecture.
 
 ## Overview
 
@@ -9,7 +9,7 @@ Each digit is represented by a 5×5 grid containing 25 pixels. Each pixel is bin
 - `1` = ON
 - `0` = OFF
 
-The network takes the 25 pixel values as input and predicts which digit, from 0 through 9, the grid represents.
+The network receives the 25 pixel values as input and predicts which digit, from 0 through 9, the grid represents.
 
 ## Architecture
 
@@ -48,7 +48,7 @@ The grid is flattened into a vector of 25 values before being passed into the ne
 
 - Understand feedforward neural networks.
 - Explore how a network learns binary patterns.
-- Implement or experiment with forward propagation and backpropagation.
+- Implement forward propagation and backpropagation.
 - Train the model to classify ten numerical classes.
 - Measure performance using labeled examples.
 - Investigate how weights, biases, activation functions, and training parameters affect results.
@@ -62,11 +62,11 @@ Evaluate the model on labeled examples that were not used for training. Useful m
 - Confusion matrix
 - Training and validation loss
 
-Actual performance depends on the implementation and training data. Results will be added after they are measured.
+Actual performance depends on the implementation and training data. Results should be documented after they are measured.
 
 ## Status
 
-Early-stage project. The implementation, dataset, training process, and measured results will be documented as development progresses.
+The project is in development. The implementation, dataset, training process, and measured results will be documented as they are completed.
 
 ## Future Improvements
 
@@ -79,4 +79,4 @@ Early-stage project. The implementation, dataset, training process, and measured
 
 ## License
 
-No license has been selected yet. Until a license is added, normal copyright applies to this repository's contents.
+This project is licensed under the [MIT License](LICENSE). You may use, modify, and distribute the software in accordance with the terms of that license.
